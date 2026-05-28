@@ -1,0 +1,28 @@
+# Python artefacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Model / data outputs (generated at runtime inside the container)
+model.joblib
+data/
+
+# Git & IDE
+.git/
+.gitignore
+.DS_Store
+.idea/
+.vscode/
+
+# Docs
+README.md
