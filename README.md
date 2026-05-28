@@ -181,11 +181,18 @@ Input  : sepal_length=5.9, sepal_width=3.0, petal_length=4.8, petal_width=1.8
 ```
 iris-ml/
 ├── data/
-│   ├── train.csv        # 120-sample training split
-│   └── test.csv         # 30-sample test split
-├── model.joblib         # Saved RandomForest model
+│   ├── train.csv
+│   └── test.csv
+├── model.joblib
+├── app.py
+├── train.py
+├── predict.py
+├── requirements.txt
 ├── Dockerfile
-└── README.md
+├── .dockerignore
+├── .gitignore
+└──README.md
+    
 ```
 
 ---
